@@ -1,0 +1,285 @@
+
+section{
+  padding-bottom: 80px;
+}
+.nav1 ul li a:hover{
+    color: #b4a078;
+}
+
+.pic-move{
+    background-color: #f5f5f5;
+    border-bottom: 80px;
+}
+
+#big {
+    width: 1090px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+.sm-navbar{
+    padding-top: 15px;
+    padding-bottom: 20px;
+} 
+
+#big ul{
+    right: 0;
+    margin-top: 0;
+}
+
+.sm-navbar a{
+    font-size: 12px;
+    color: #333;
+}
+
+.sm-navbar span{
+    font-size: 12px;
+    color: #999;
+}
+.circle{
+    bottom:5px;
+}
+
+.show-navbar{
+    width: 1090px;
+    background-color: #fff;
+
+}
+
+.show-navbar>div{
+    height: 14px;
+    padding: 20px 0px;
+    border-bottom: 1px dashed #e8e8e8;
+    margin: 0 40px;
+}
+
+.show-navbar span{
+    float: left;
+    font-size: 14px;
+    color: #999;
+}
+
+.show-navbar .all{
+    margin-left: 30px;
+}
+
+.show-navbar ul li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.show-navbar ul li a{
+    color: #333;
+}
+
+.show-navbar>div:nth-of-type(3){
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.goods-show{
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.goods-show>div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.goods-show  h1{
+    height: 27px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin:0 auto;
+}
+
+.goods-show p{
+    padding-top: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.show-pic{
+    width: 1090px;
+    overflow: hidden;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.show-pic ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.show-pic ul li a{
+    display: block;
+    width: 245px;
+    height: 245px;
+    overflow: hidden;
+    background-color: rgb(244, 244, 244);
+    margin-bottom: 4px;
+}
+/* 
+.show-pic ul li>div{
+ 
+} */
+
+.show-pic ul li img{
+    transition:all 0.8s;
+}
+.show-pic ul li:hover img{
+    transform: scale(1.05)
+}
+
+.show-pic ul li:nth-of-type(4){
+    margin-right: 0;
+}
+
+.show-pic ul{
+    overflow: hidden;
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.show-pic span{
+    display: block;
+    height: 20px;
+    line-height: 22px;
+}
+
+.show-pic{
+    text-align: center;
+}
+
+.show-pic .new{
+    margin: 1px auto;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    background-color: #b4a078;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.show-pic .sale{
+    display: inline-block;
+}
+
+.show-pic .intro{
+    font-weight:700;
+    color: #333;
+    font-size: 12px;
+}
+
+.show-pic hr{
+    display: block;
+    width: 130px;
+    height: 1px;
+    padding: 0;
+    margin: 6px auto 14px;
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.show-pic .tip{
+    font-size: 12px;
+    color: #999;
+}
+
+.show-pic .show{
+    position: absolute;
+    font-size: 12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    height: 20px;
+    text-align: center;
+    left: 12px;
+    padding: 0 4px;
+    line-height: 20px;
+    top: 10px;
+}
+
+.show-pic .warn{
+    position: absolute;
+    z-index: 3;
+    width: 245px;
+    height: 34px;
+    background-color: rgb(232, 191, 91);
+    bottom: 103px;
+}
+
+.show-pic .warn>div{
+    display: inline-block;
+    width: 205px;
+}
+
+.show-pic .warn>div>span{
+    margin-left: -113px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.show-pic .warn button{
+    height: 26px;
+    line-height: 24px;
+    font-size: 14px;
+    width: 110px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    top: -16px;
+    position: relative;
+    right: -63px;
+}
+
+.show-pic .warn i{
+    background: url(../img/logo8.png) no-repeat 0 -168px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    left: 6px;
+    position: relative;
+}
+
+.warn>div>button>span>span{
+    display: inline-block;
+    vertical-align: super;
+    position: relative;
+    right: 3px;
+    color: #333;
+}
+
+.show-pic .future{
+    background-color: #999;
+
+}
+
+.show-pic .hot{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.show-pic .price3{
+    font-size: 12px;
+    display: inline-block;
+
+}
+
+
